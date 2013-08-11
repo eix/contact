@@ -1,0 +1,34 @@
+{
+    "name": "nohex/contact_eixtension",
+    "description": "Eix extension that provides contact form interaction.",
+    "version": "0.3-dev",
+    "type": "library",
+    "keywords": ["contact form", "e-mail", "contact", "customer", "communication"],
+    "homepage": "http://eix.nohex.com/eixtensions/contact",
+    "time": "2013-01-01",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Noé",
+            "email": "max@nohex.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nohex/contact_eixtension",
+        "source": "https://github.com/nohex/contact_eixtension"
+    },
+    "require": {
+        "nohex/eix": ">=0.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nohex\\Eix": [
+				"src/php/main",
+				"src/php/lib",
+				"src/php/test"
+			]
+        }
+    },
+    "prefer-stable": true
+}
