@@ -1,7 +1,7 @@
 {
     "name": "nohex/contact_eixtension",
     "description": "Eix extension that provides contact form interaction.",
-    "version": "0.3-dev",
+    "version": "0.4.0",
     "type": "library",
     "keywords": ["contact form", "e-mail", "contact", "customer", "communication"],
     "homepage": "http://eix.nohex.com/eixtensions/contact",
@@ -19,7 +19,7 @@
         "source": "https://github.com/nohex/contact_eixtension"
     },
     "require": {
-        "nohex/eix": ">=0.3"
+        "nohex/eix": "~0.4"
     },
     "autoload": {
         "psr-0": {
@@ -30,5 +30,8 @@
 			]
         }
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+	"config": {
+		"vendor-dir": "src/php/lib"
+	}
 }
