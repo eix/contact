@@ -1,1 +1,3 @@
-build
+composer.lock
+src/php/lib/autoload.php
+src/php/lib/composer
