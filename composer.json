@@ -1,7 +1,6 @@
 {
     "name": "nohex/contact_eixtension",
     "description": "Eix extension that provides contact form interaction.",
-    "version": "0.4.0",
     "type": "library",
     "keywords": ["contact form", "e-mail", "contact", "customer", "communication"],
     "homepage": "http://eix.nohex.com/eixtensions/contact",
