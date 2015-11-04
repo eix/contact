@@ -4,9 +4,9 @@
  * Provides means to respond to a contact request.
  */
 
-namespace Nohex\Eix\Modules\ContactForm\Responses\Contact;
+namespace Eix\Modules\ContactForm\Responses\Contact;
 
-use Nohex\Eix\Core\Responses\Http\Html as HtmlResponse;
+use Eix\Core\Responses\Http\Html as HtmlResponse;
 
 class Html extends HtmlResponse
 {
@@ -67,9 +67,9 @@ class Html extends HtmlResponse
                     . 'Request: ' . serialize($_REQUEST)
                 ;
 
-                $settings = \Nohex\Eix\Core\Application::getSettings();
+                $settings = \Eix\Core\Application::getSettings();
 
-                $mailMessage = new \Nohex\Eix\Services\Net\Mail\Message;
+                $mailMessage = new \Eix\Services\Net\Mail\Message;
                 $mailMessage->setSender($senderAddress, $senderName);
                 $mailMessage->setBody($message . $messageData);
                 $mailMessage->addRecipient(

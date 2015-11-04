@@ -1,35 +1,51 @@
 {
-    "name": "nohex/contact_eixtension",
-    "description": "Eix extension that provides contact form interaction.",
-    "type": "library",
-    "keywords": ["contact form", "e-mail", "contact", "customer", "communication"],
-    "homepage": "http://eix.nohex.com/eixtensions/contact",
-    "time": "2013-01-01",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Max Noé",
-            "email": "max@nohex.com",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/nohex/contact_eixtension",
-        "source": "https://github.com/nohex/contact_eixtension"
-    },
-    "require": {
-        "nohex/eix": "~0.4"
-    },
-    "autoload": {
-        "psr-0": {
-            "Nohex\\": [
-				"src/php/main",
-				"src/php/test"
-			]
-        }
-    },
-    "prefer-stable": true,
-	"config": {
-		"vendor-dir": "src/php/lib"
-	}
+  "name": "eix/contact_eixtension",
+  "description": "Eix extension that provides contact form interaction.",
+  "type": "library",
+  "keywords": [
+    "contact form",
+    "e-mail",
+    "contact",
+    "customer",
+    "communication"
+  ],
+  "homepage": "http://eix.nohex.com/eixtensions/contact",
+  "time": "2013-01-01",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Noé",
+      "email": "max@nohex.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/nohex/contact_eixtension",
+    "source": "https://github.com/nohex/contact_eixtension"
+  },
+  "require": {
+    "eix/core": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Eix\\": "src/php/main"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "Eix\\": "src/php/test"
+    }
+  },
+  "prefer-stable": true,
+  "config": {
+    "vendor-dir": "src/php/lib"
+  },
+  "require-dev": {
+    "phing/phing": "*",
+    "phpunit/phpunit": "~4.7",
+    "phplint/phplint": "*",
+    "phploc/phploc": "*",
+    "sebastian/phpcpd": "*",
+    "mayflower/php-codebrowser": "*"
+  }
 }

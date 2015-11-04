@@ -4,9 +4,9 @@
  * Responder for the contact page.
  */
 
-namespace Nohex\Eix\Modules\ContactForm\Responders\Contact;
+namespace Eix\Modules\ContactForm\Responders\Contact;
 
-class Html extends \Nohex\Eix\Core\Responders\Http
+class Html extends \Eix\Core\Responders\Http
 {
     protected function httpGetForAll()
     {
@@ -15,11 +15,11 @@ class Html extends \Nohex\Eix\Core\Responders\Http
 
     /**
      * GET /contact
-     * @return \Nohex\Eix\Core\Responses\Http\Html
+     * @return \Eix\Core\Responses\Http\Html
      */
     protected function httpGetForHtml()
     {
-        $response = new \Nohex\Eix\Core\Responses\Http\Html($this->getRequest());
+        $response = new \Eix\Core\Responses\Http\Html($this->getRequest());
         $response->setTemplateId('contact/index');
 
         return $response;
@@ -27,11 +27,11 @@ class Html extends \Nohex\Eix\Core\Responders\Http
 
     /**
      * POST /contact
-     * @return \Nohex\Eix\Core\Responses\Http\Html
+     * @return \Eix\Core\Responses\Http\Html
      */
     protected function httpPostForHtml()
     {
-        $response = new \Nohex\Eix\Modules\ContactForm\Responses\Contact\Html($this->getRequest());
+        $response = new \Eix\Modules\ContactForm\Responses\Contact\Html($this->getRequest());
 
         return $response;
     }

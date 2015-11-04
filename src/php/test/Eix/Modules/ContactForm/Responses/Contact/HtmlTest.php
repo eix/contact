@@ -1,8 +1,8 @@
 <?php
 
-namespace Nohex\Eix\Modules\ContactForm\Responses\Contact;
+namespace Eix\Modules\ContactForm\Responses\Contact;
 
-use Nohex\Eix\Modules\ContactForm\Responses\Contact\Html as ContactResponse;
+use Eix\Modules\ContactForm\Responses\Contact\Html as ContactResponse;
 
 class HtmlTest extends \PHPUnit_Framework_TestCase
 {
