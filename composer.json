@@ -1,6 +1,6 @@
 {
-  "name": "eix/contact_eixtension",
-  "description": "Eix extension that provides contact form interaction.",
+  "name": "eix/contact",
+  "description": "Eixtension that provides contact form interaction.",
   "type": "library",
   "keywords": [
     "contact form",
@@ -20,8 +20,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/nohex/contact_eixtension",
-    "source": "https://github.com/nohex/contact_eixtension"
+    "source": "https://github.com/eix/contact",
+    "issues": "https://github.com/eix/contact/issues"
   },
   "require": {
     "eix/core": "dev-master"
@@ -33,7 +33,7 @@
   },
   "autoload-dev": {
     "psr-0": {
-      "Eix\\": "src/php/test"
+      "Eix": "src/php/test"
     }
   },
   "prefer-stable": true,
