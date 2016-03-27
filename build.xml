@@ -58,8 +58,6 @@
               level="debug">
             <arg value="--log"/>
             <arg path="${reportsDir}"/>
-            <arg value="--source"/>
-            <arg path="${srcDir}"/>
             <arg value="--output"/>
             <arg path="${reportsDir}/cb"/>
         </exec>
