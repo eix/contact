@@ -9,13 +9,13 @@
     "customer",
     "communication"
   ],
-  "homepage": "http://eix.nohex.com/eixtensions/contact",
+  "homepage": "https://github.com/eix/contact",
   "time": "2013-01-01",
   "license": "MIT",
   "authors": [
     {
       "name": "Max Noé",
-      "email": "max@nohex.com",
+      "email": "code@0h.io",
       "role": "Developer"
     }
   ],
@@ -42,7 +42,7 @@
   },
   "require-dev": {
     "phing/phing": "*",
-    "phpunit/phpunit": "~4.7",
+    "phpunit/phpunit": "~5",
     "phplint/phplint": "*",
     "phploc/phploc": "*",
     "sebastian/phpcpd": "*",
